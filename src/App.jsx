@@ -4,9 +4,11 @@ import Navbar from "./Component/Navbar/Navbar"
 import Explore from "./Component/Explore/Explore"
 import Newsletter from "./Component/Newsletter/Newsletter"
 import Collection from "./Component/Collection/Collection"
-import Bestseller from "./Component/BestSeller/Bestseller"
+import Bestseller from "./Component/BestSeller/BestSeller"
 import Follow from "./Component/Follow/Follow"
-import Footer from "./Component/Footer.jsx/Footer"
+// import Footer from "./Component/Footer.jsx/Footer"
+import Footer from "./Component/Footer/Footer";
+
 function App() {
  
 
