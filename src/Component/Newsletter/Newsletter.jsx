@@ -1,9 +1,7 @@
 // 
-
-
 import React, { useState } from 'react';
 import Card from '../Card/Card';
-import { FaFilter } from 'react-icons/fa';
+
 
 import pexelsAnthony from '../../assets/pexels-anthony.jpg';
 import pexelsAnna from '../../assets/pexels-anna.jpg';
@@ -16,11 +14,12 @@ import  blankHoodies from '../../assets/blank-hoodies.jpg';
 import  humanHo from '../../assets/human-ho.jpg';
 import  istockphotoHo from '../../assets/istockphoto-ho.jpg';
 import  tmtImage from '../../assets/tmtImage.jpg';
-import   is from '../../assets/is.jpg';
+import   isImage from '../../assets/isImage.jpg';
 import   Alphacombo from '../../assets/Alphacombo.jpg';
 import  jacket1 from '../../assets/jacket1.jpg';
 import  BH from '../../assets/BH.jpg';
 import  mensLeather from '../../assets/mens_leather.jpg';
+import { FaFilter } from 'react-icons/fa';
 
 function Newsletter() {
   const products = [
@@ -98,7 +97,7 @@ function Newsletter() {
       price: '$79.99',
     },
     {
-      Image: is,
+      Image: isImage,
       title: 'men accessory',
       category: 'Accessories',
       price: '$79.99',
